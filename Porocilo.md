@@ -54,6 +54,30 @@ Sledenje živalim
 
 # Demo
 
+Za lažje razumevanje poteka izračuna koordinat nekega sprejemnika s tremi sateliti smo napisali Python program, ki najprej v tri dimenzionalni prostor postavi naključno tri satelite (rdeče sfere s črno obrobo) in en sprejemnik (modra sfera). Nato pa se sprejemnik premika v ravni liniji, sateliti pa z izmerjenimi razdaljami postavi predmet v prostor. Zunanja sfera predstavlja realno pozicijo sprejemnika, zunanja pa izračunano. Kot smo že govorili, sta produkt preseka treh sfer v tri dimenzionalnem prostoru dve točki. Presek izračunamo s funkcijo:
+```py
+def trilaterate(P1, P2, P3, r1, r2, r3):
+    temp1 = P2-P1
+    e_x = temp1/norm(temp1)
+    temp2 = P3-P1
+    i = dot(e_x, temp2)
+    temp3 = temp2 - i*e_x
+    e_y = temp3/norm(temp3)
+    e_z = cross(e_x, e_y)
+    d = norm(P2-P1)
+    j = dot(e_y, temp2)
+    x = (r1*r1 - r2*r2 + d*d) / (2*d)
+    y = (r1*r1 - r3*r3 - 2*i*x + i*i + j*j) / (2*j)
+    temp4 = r1*r1 - x*x - y*y
+    if temp4 < 0:
+        raise Exception("The three spheres do not intersect!")
+    z = sqrt(temp4)
+    p_12_a = P1 + x*e_x + y*e_y + z*e_z
+    p_12_b = P1 + x*e_x + y*e_y - z*e_z
+    return p_12_a, p_12_b
+```
+Kot je razvidno, zadeva deluje dobro. V resnici temu ni tako, saj pride do težav pri natančnem merjenju razdalj. V programu merjenje razdalj ni problematično, saj so sateliti popolnoma v sinhronizaciji. V realnem svetu sateliti razdaljo merijo z radijskimi signali (kako dolgo potrebujejo, da pripotujejo do satelita), zato pride pri meritvah do razlik. Imamo pa srečo, da je v zemljini orbiti trenutno postavljenih dovolj satelitov, da imamo na vsakem delču zemljine površine v neki časovni točki na voljo vsaj več satelitov kot tri. S tem si lahko pomagamo, da te napake minimiziramo.
+
 # Sources
 https://en.wikipedia.org/wiki/Satellite_navigation#Global_navigation_satellite_systems
 

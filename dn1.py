@@ -10,17 +10,17 @@ import matplotlib.animation as anim
 class Receiver:
 
     def __init__(self):
-        self.x = random.uniform(-100, 100)
-        self.y = random.uniform(-100, 100)
-        self.z = random.uniform(-100, 100)
+        self.x = random.uniform(25, 75)
+        self.y = random.uniform(25, 75)
+        self.z = random.uniform(25, 75)
 
 
 class Satelite:
 
     def __init__(self):
-        self.x = random.uniform(-100, 100)
-        self.y = random.uniform(-100, 100)
-        self.z = random.uniform(-100, 100)
+        self.x = random.uniform(0, 100)
+        self.y = random.uniform(0, 100)
+        self.z = random.uniform(0, 100)
         self.point = np.array([self.x, self.y, self.z])
 
     def distance(self, receiver: Receiver) -> float:
@@ -71,10 +71,10 @@ class Drawer:
             
 
         self.intersect1_plt, = ax.plot([], [], [], marker="o",
-                                      markersize=10, markerfacecolor="red", markeredgecolor="red")
+                                      markersize=10, markerfacecolor="blue", markeredgecolor="blue")
 
         self.intersect2_plt, = ax.plot([], [], [], marker="o",
-                                      markersize=10, markerfacecolor="red", markeredgecolor="red")
+                                      markersize=10, markerfacecolor="blue", markeredgecolor="blue")
         
         self.receiver_txt = ax.text(self.receiver.x, self.receiver.y ,self.receiver.z, "")
 
