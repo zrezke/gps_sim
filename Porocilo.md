@@ -41,6 +41,8 @@ Oba uporablata postaje na površju zemlje, ki omogočajo izbolšave do centimetr
 
 # Opis naprave (sprejemnik)
 
+<img src="https://m.media-amazon.com/images/I/71D+goSD3CL._AC_SL1500_.jpg" width="50%"/>
+
 # Kje se uporablja
 
 Navigacija
