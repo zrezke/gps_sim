@@ -46,6 +46,9 @@ Oba uporablata postaje na površju zemlje, ki omogočajo izbolšave do centimetr
     - USB
     - UART
     - SPI
+## Podatkovni format
+- Protokol [NMEA (National Marine Electronics Association)](https://en.wikipedia.org/wiki/NMEA_0183) za komunikacijo z GPS sateliti.  
+- RTCM [https://en.wikipedia.org/wiki/RTCM_SC-104](https://en.wikipedia.org/wiki/RTCM_SC-104) za komunikacijo med DGPS in receiverjem.  
  
 <img src="https://m.media-amazon.com/images/I/71D+goSD3CL._AC_SL1500_.jpg" width="50%"/>
 
@@ -61,10 +64,6 @@ Vojaški nameni
 Sledenje živalim
 
 # Zgodovina
-
-Začetki satelitske navigacije so se začele leta 1957, ko je Sovjetska zveza izstrelila v orbito satelit Sputnik 1. Za izračun pozicije v orbiti so uporabili meritve, napravljene z eno postajo na zemlji. Nato pa so se domislili, da bi ta isti postopek lahko uporabili obratno za lociranje naprave na zemlji.
-
-Prvi sistem je bil Transit (1964), katerega so uporabljale U.S. Navy ladje in podmornice. Ladje so takrat locirali z nekaj 100 metrsko natančnostjo.
 
 # Demo
 
@@ -97,4 +96,4 @@ https://en.wikipedia.org/wiki/Satellite_navigation#Global_navigation_satellite_s
 
 https://dewesoft.com/products/interfaces-and-sensors/gps-and-imu-devices
 
-https://oemgnss.trimble.com/the-history-of-the-global-positioning-system/
+https://www.nasa.gov/directorates/heo/scan/communications/policy/GPS_History.html
