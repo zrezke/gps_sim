@@ -62,6 +62,10 @@ Sledenje živalim
 
 # Zgodovina
 
+Začetki satelitske navigacije so se začele leta 1957, ko je Sovjetska zveza izstrelila v orbito satelit Sputnik 1. Za izračun pozicije v orbiti so uporabili meritve, napravljene z eno postajo na zemlji. Nato pa so se domislili, da bi ta isti postopek lahko uporabili obratno za lociranje naprave na zemlji.
+
+Prvi sistem je bil Transit (1964), katerega so uporabljale U.S. Navy ladje in podmornice. Ladje so takrat locirali z nekaj 100 metrsko natančnostjo.
+
 # Demo
 
 Za lažje razumevanje poteka izračuna koordinat nekega sprejemnika s tremi sateliti smo napisali Python program, ki najprej v tri dimenzionalni prostor postavi naključno tri satelite (rdeče sfere s črno obrobo) in en sprejemnik (modra sfera). Nato pa se sprejemnik premika v ravni liniji, sateliti pa z izmerjenimi razdaljami postavi predmet v prostor. Zunanja sfera predstavlja realno pozicijo sprejemnika, zunanja pa izračunano. Kot smo že govorili, sta produkt preseka treh sfer v tri dimenzionalnem prostoru dve točki. Presek izračunamo s funkcijo:
@@ -93,4 +97,4 @@ https://en.wikipedia.org/wiki/Satellite_navigation#Global_navigation_satellite_s
 
 https://dewesoft.com/products/interfaces-and-sensors/gps-and-imu-devices
 
-https://www.nasa.gov/directorates/heo/scan/communications/policy/GPS_History.html
+https://oemgnss.trimble.com/the-history-of-the-global-positioning-system/
