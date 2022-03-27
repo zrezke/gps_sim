@@ -34,6 +34,8 @@ GPS lahko deluje le do enega metra natančno. Zato obstajajo tudi izbolšave.
 Primera sta:
 - WAAS - "Wide Area Augmentation System"
 - DGPS - "Differential GPS"
+
+<img src="./img/2-Figure1-1-1.png">
   
 Oba uporablata postaje na površju zemlje, ki omogočajo izbolšave do centimetra natančno, vendar mora biti sprejemnik vedno v dosegu teh postaj.
 
