@@ -15,13 +15,13 @@ Vsak od teh ima svoje prednosti in slabosti. Vsi imajo manj natančni javni del,
 Teoretično potrebujemo za določitev pozicije točke v sistemu razdaljo do treh drugih točk.
 
 Za lociranja neke naprave potrebujemo vsaj 3 satelite. Vsak izmed satelitov izmeri razdaljo do naprave.
-<img src="./img/3_intersection.png"/>
+<img src="./img/3_intersection.png" width="60%"/>
 
 Izračun preseka bomo razložili v dveh dimenzijah, ampak se to lepo prenese v tri dimenzije. 
 
 Matematična formula za krožnico je $ (x - x_1)^2 + (y - y_1)^2 = r^r $. Kjer je $ (x_1, y_1) $ središče krožnice, $ r $ pa je polmer. Ko imamo krožnice je z lahkoto izračunati njihov presek.
 
-<img src="./img/3d_intersection.png" />
+<img src="./img/3d_intersection.png" width="60%"/>
 
 Ko se pomaknemo v tri-dimenzionalni prostor dobimo iz treh sfer dva preseka. Sateliti v resnici ne zaznavajo povsod okoli sebe, ampak le v smer sprejemnika, zato drugega preseka ne zazna.
 
@@ -35,7 +35,7 @@ Primera sta:
 - WAAS - "Wide Area Augmentation System"
 - DGPS - "Differential GPS"
 
-<img src="./img/2-Figure1-1-1.png">
+<img src="./img/2-Figure1-1-1.png" width="60%">
   
 Oba uporablata postaje na površju zemlje, ki omogočajo izbolšave do centimetra natančno, vendar mora biti sprejemnik vedno v dosegu teh postaj.
 
