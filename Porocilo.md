@@ -40,7 +40,13 @@ Primera sta:
 Oba uporablata postaje na površju zemlje, ki omogočajo izbolšave do centimetra natančno, vendar mora biti sprejemnik vedno v dosegu teh postaj.
 
 # Opis naprave (sprejemnik)
-
+### Primer razvojnega modula: GPS NEO-6M
+- Podpira STM32
+- Načini priklopa:
+    - USB
+    - UART
+    - SPI
+ 
 <img src="https://m.media-amazon.com/images/I/71D+goSD3CL._AC_SL1500_.jpg" width="50%"/>
 
 # Kje se uporablja
