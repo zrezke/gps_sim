@@ -55,20 +55,39 @@ Oba uporablata postaje na površju zemlje, ki omogočajo izbolšave do centimetr
 
 # Kje se uporablja
 
-Navigacija
-Pomoč pri avtonomni vožnji
-Droni
-IMU
-Traktor
-Telefon
-Vojaški nameni
-Sledenje živalim
+## Telefon
+Telefoni GPS uporabljajo za lociranje naprave, vendar niso omejeni le na GPS, saj lahko informacijo o lokaciji dobijo tudi iz mobilnega omrežja.
+Najpogostejša aplikacije, ki uporabljajo GPS so aplikacije za navigacijo (Apple Maps, Google Maps, Sygnic, ...). Te aplikacije nam lahko povejo našo lokacijo ali pa nam dajo natančna navodila kako priti iz ene lokacije do druge.
+<img src="./img/iphonegps.jpg" width=400/>
+
+## IMU
+IMU naprave vsebujejo GPS s katerim zagotavljajo precizno merjenje lokacije, merjenje pospeška in hitrosti.
+
+Primer je DS IMU podjetja Dewesoft, ki je zelo popularen v avtomobilski industriji, kjer se med drugim uporablja za testiranje in validacijo sistemov za avtonomno vožnjo.
+<img src="./img/ds-imu2-antena.webp" width=400/>
+
+## Kmetijski pripomočki
+V zadnjih nekaj letih postajajo zelo popularni sistemi za avtonomno vožnjo kmetijskih pripomočkov. Večjo natančnost dosežemo z uporabo baznih postaj, kar nam omogoči uporabo na terenih kjer je natančnost zelo važna (ob rekah, polja nepravilne oblike, ...). Takšni sistemi so zelo popularni v Ameriki, saj je tam kmetovanje veliko bolj industrializirano, kar pomeni, da so polja bolj ravna in večja.
+<img src="./img/tractor-with-products.svg">
+
+## Vojaški nameni 
+Ameriška vojska GPS uporablja v letalih, ladjah, vozilih in pehoti. GPS je vojski omogočil razvoj orožji za avtomatskim ciljanjem, pomoga tudi pri upravljanju brezpilotnih systemov in dostavi surovin na bojišče.
+
+<img src="./img/nasm2012-02175.jpg"/>
+
+Primer avtonomnega zračnega vozila, ki uporablja GPS za opazovalne misije in nevarne situacije, brez da bi operaterja spravil v nevarnost. To vozilo se je uporabljalo za ogled škode na reaktorju na Japonskem leta 2011 pomaga pa tudi pri odstranjevanju bomb.
+
+## Sledenje živalim
+Biologi, raziskovalci in naravovarstvene agencije uporabljajo GPS za oddaljeno opazovanje premikov in migracijskih vzorcev divjih živali. Ponavadi uporabljajo GPS v kombinaciji z več drugimi senzorji in sistemom z avtomatsko nalagane podatkov npr. mobilni podatiki ali GPRS.
+
+<img src="./img/animaltracking.jpg"/>
 
 # Zgodovina
 
 Začetki satelitske navigacije so se začele leta 1957, ko je Sovjetska zveza izstrelila v orbito satelit Sputnik 1. Za izračun pozicije v orbiti so uporabili meritve, napravljene z eno postajo na zemlji. Nato pa so se domislili, da bi ta isti postopek lahko uporabili obratno za lociranje naprave na zemlji.
 
 Prvi sistem je bil Transit (1964), katerega so uporabljale U.S. Navy ladje in podmornice. Ladje so takrat locirali z nekaj 100 metrsko natančnostjo.
+
 
 # Demo
 
@@ -102,3 +121,9 @@ https://en.wikipedia.org/wiki/Satellite_navigation#Global_navigation_satellite_s
 https://dewesoft.com/products/interfaces-and-sensors/gps-and-imu-devices
 
 https://oemgnss.trimble.com/the-history-of-the-global-positioning-system/
+
+https://dewesoft.com/products/interfaces-and-sensors/gps-and-imu-devices
+
+https://timeandnavigation.si.edu/satellite-navigation/who-uses-satellite-navigation/military-applications
+
+https://en.wikipedia.org/wiki/GPS_animal_tracking
