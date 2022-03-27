@@ -92,9 +92,5 @@ Kot je razvidno, zadeva deluje dobro. V resnici temu ni tako, saj pride do teža
 https://en.wikipedia.org/wiki/Satellite_navigation#Global_navigation_satellite_systems
 
 https://dewesoft.com/products/interfaces-and-sensors/gps-and-imu-devices
-# Ideje
 
-Iphone - galileo + glonass + gps
-Traktor - rabi natančnost (amerika je slovenija bl slabo)
-IMU - avtomobilsa industija DSImu
-DGPS, WAAS - za enhancement
+https://www.nasa.gov/directorates/heo/scan/communications/policy/GPS_History.html
