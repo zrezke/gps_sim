@@ -58,12 +58,14 @@ Oba uporablata postaje na površju zemlje, ki omogočajo izbolšave do centimetr
 ## Telefon
 Telefoni GPS uporabljajo za lociranje naprave, vendar niso omejeni le na GPS, saj lahko informacijo o lokaciji dobijo tudi iz mobilnega omrežja.
 Najpogostejša aplikacije, ki uporabljajo GPS so aplikacije za navigacijo (Apple Maps, Google Maps, Sygnic, ...). Te aplikacije nam lahko povejo našo lokacijo ali pa nam dajo natančna navodila kako priti iz ene lokacije do druge.
+
 <img src="./img/iphonegps.jpg" width=400/>
 
 ## IMU
 IMU naprave vsebujejo GPS s katerim zagotavljajo precizno merjenje lokacije, merjenje pospeška in hitrosti.
 
 Primer je DS IMU podjetja Dewesoft, ki je zelo popularen v avtomobilski industriji, kjer se med drugim uporablja za testiranje in validacijo sistemov za avtonomno vožnjo.
+
 <img src="./img/ds-imu2-antena.webp" width=400/>
 
 ## Kmetijski pripomočki
