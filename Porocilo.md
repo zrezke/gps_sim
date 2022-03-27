@@ -47,6 +47,10 @@ Oba uporablata postaje na površju zemlje, ki omogočajo izbolšave do centimetr
     - UART
     - SPI
  
+## Podatkovni format
+- Protokol [NMEA (National Marine Electronics Association)](https://en.wikipedia.org/wiki/NMEA_0183) za komunikacijo z GPS sateliti.  
+- RTCM [https://en.wikipedia.org/wiki/RTCM_SC-104](https://en.wikipedia.org/wiki/RTCM_SC-104) za komunikacijo med DGPS in receiverjem. 
+
 <img src="https://m.media-amazon.com/images/I/71D+goSD3CL._AC_SL1500_.jpg" width="50%"/>
 
 # Kje se uporablja
